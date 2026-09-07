@@ -17,4 +17,8 @@ public class JobAppController {
     }
     // Learning this
 
+    @RequestMapping("handleForm")
+    public String handleForm(){
+        return "success";
+    }
 }
