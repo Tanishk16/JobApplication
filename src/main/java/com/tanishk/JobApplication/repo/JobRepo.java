@@ -33,6 +33,7 @@ public class JobRepo {
 
     public void addJob(JobPost job){
         jobs.add(job);
+        System.out.println(jobs);
     }
 
     public List<JobPost> getAllJobs(){
